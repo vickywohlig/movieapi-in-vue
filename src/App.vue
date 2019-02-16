@@ -2,7 +2,13 @@
   <div id="app">
     <div id="nav">
       <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
+      <router-link to="/about">About</router-link>|
+      <router-link to="/test">Test</router-link>|
+      <router-link to="/demo">Demo</router-link>|
+      <router-link to="/task">Task</router-link>|
+      <router-link to="/temp">Temp</router-link>|
+      <router-link to="/boot">Bootstrap</router-link>|
+      <router-link to="/movie">Movies</router-link>
     </div>
     <router-view/>
   </div>
@@ -16,6 +22,7 @@
   text-align: center;
   color: #2c3e50;
 }
+
 #nav {
   padding: 30px;
   a {
